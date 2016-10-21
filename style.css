@@ -5,6 +5,9 @@ h1 {
 
 p {
   color: white;
-  background: black;
-  float: left;
+  background: grey;
+}
+
+p.last {
+  color: black;
 }
