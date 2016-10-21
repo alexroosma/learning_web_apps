@@ -1,0 +1,10 @@
+h1 {
+  margin: auto;
+  color: blue;
+}
+
+p {
+  color: white;
+  background: black;
+  float: left;
+}
