@@ -1,26 +1,53 @@
-/* This will hold the standard styling */
-
 body {
   background: #f9e933;
 }
 
 header {
   background: white;
+  overflow: auto;
+}
+
+header h1 {
+  float: left;
+  width: 570px;
+}
+
+header nav {
+  float: right;
+  width: 285px;
 }
 
 main {
   background: white;
+  overflow: auto;
 }
 
-footer {
+main .left_main {
+  float: left;
+  width: 570px;
+}
 
+main .right_main {
+  float: right;
+  width: 285px;
+}
+
+footer .foot_left {
+  float: left;
+  width: 570px;
+}
+
+footer .sitemap {
+  float: right;
+  width: 285px;
+}
+
+
+header, main, footer {
+  min-width: 855px;
 }
 
 header .container, main .container, footer .container {
   max-width: 855px;
   margin: auto;
-}
-
-header, main, footer {
-  min-width: 855px;
 }
