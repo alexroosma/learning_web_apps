@@ -1,1 +1,26 @@
 /* This will hold the standard styling */
+
+body {
+  background: #f9e933;
+}
+
+header {
+  background: white;
+}
+
+main {
+  background: white;
+}
+
+footer {
+
+}
+
+header .container, main .container, footer .container {
+  max-width: 855px;
+  margin: auto;
+}
+
+header, main, footer {
+  min-width: 855px;
+}
