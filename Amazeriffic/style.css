@@ -7,6 +7,14 @@ header {
   overflow: auto;
 }
 
+* {
+  font-family: 'Droid Sans', sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Ubuntu', sans-serif;
+}
+
 header h1 {
   float: left;
   width: 570px;
