@@ -1,2 +1,4 @@
 #ignore all contents (recursively) in ch3 dir
 ch3/
+#ignore all contents (recursively) in ch4 dir
+ch4/
