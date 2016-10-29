@@ -1,0 +1,55 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+header h2 {
+  font-family: sans-serif;
+  float: left;
+}
+
+header p {
+  font-family: sans-serif;
+  color: grey;
+  font-style: italic;
+  float: right;
+}
+
+main .comment-input {
+    float: left;
+    padding-top: 30px;
+}
+
+main .comments {
+  float: right;
+  min-width: 500px;
+  text-align: left;
+  padding-top: 30px;
+}
+
+main .comments p {
+  text-align: left;
+  margin: 10px;
+}
+
+main .comments p:nth-child(even) {
+  background-color: lavender;
+}
+
+main .comments p:nth-child(odd) {
+  background-color: gainsboro;
+}
+
+footer {
+  padding-top: 40px;
+}
+
+header, main, footer {
+  min-width: 855px;
+  overflow: auto;
+}
+
+header .container, main .container, footer .container {
+  max-width: 855px;
+  margin: auto;
+}
