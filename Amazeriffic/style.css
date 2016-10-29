@@ -7,27 +7,36 @@ header {
   overflow: auto;
 }
 
-* {
-  font-family: 'Droid Sans', sans-serif;
-}
-
 h1, h2, h3, h4 {
   font-family: 'Ubuntu', sans-serif;
+}
+
+
+* header, * main, * footer {
+  font-family: 'Droid Sans', sans-serif;
 }
 
 header h1 {
   float: left;
   width: 570px;
+  font-size: 250%;
+  font-style: italic;
+  color: #505060;
+  padding-top: 15px;
+  padding-bottom: 40px;
 }
 
 header nav {
   float: right;
   width: 285px;
+  padding-top: 15px;
+  text-align: center;
 }
 
 main {
   background: white;
   overflow: auto;
+  padding-bottom: 50px;
 }
 
 main .left_main {
@@ -40,6 +49,23 @@ main .right_main {
   width: 285px;
 }
 
+main img {
+  display: block;
+  margin: 0 auto;
+  width: 45%;
+}
+
+main h2 {
+  font-size: 175%;
+  padding-bottom: 8px;
+}
+
+main h3 {
+  font-size: 120%;
+  padding-top: 40px;
+  padding-bottom: 7px;
+}
+
 footer .foot_left {
   float: left;
   width: 570px;
@@ -50,6 +76,15 @@ footer .sitemap {
   width: 285px;
 }
 
+footer h5 {
+  font-size: 120%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+footer p, ul {
+  font-size: 80%;
+}
 
 header, main, footer {
   min-width: 855px;
