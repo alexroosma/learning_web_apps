@@ -25,6 +25,7 @@ main .comments {
   min-width: 500px;
   text-align: left;
   padding-top: 30px;
+  max-width: 550px;
 }
 
 main .comments p {

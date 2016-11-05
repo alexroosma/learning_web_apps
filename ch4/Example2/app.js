@@ -9,7 +9,10 @@ var main = function () {
     // checks for empty input before adding a new <p>
     if ($(".comment-input input") !== "") {
       $new_comment = $("<p>").text($(".comment-input input").val()) ;
+      // add HTML piece to the page
       $(".comments").append($new_comment);
+      // clear out input box
+      $(".comment-input input").val("");
     }
   });
 };
