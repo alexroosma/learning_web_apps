@@ -2,7 +2,11 @@ var main = function () {
   "use strict";
 
   $(".comment-input button").on("click", function (event){
-    $(".comments").append("<p>this is a new comment</p>");
+    // $("<p>") is actually an object, not just a literal char String
+    // using a '$' denotes that the variable is a jQuery object
+    var $new_comment = $("<p>").text($(".comment-input input").val()) ;
+
+    $(".comments").append($new_comment);
   });
 };
 
