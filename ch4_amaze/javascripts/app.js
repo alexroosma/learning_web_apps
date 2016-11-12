@@ -1,7 +1,31 @@
 var main = function() {
   "use strict";
 
-  console.log("hello world");
+  $(".tabs a:nth-child(1)").on("click", function () {
+    switchTab(1);
+    return false;   // so we don't follow the link
+  });
+
+  $(".tabs a:nth-child(2)").on("click", function () {
+    switchTab(2);
+    return false;
+  });
+
+  $(".tabs a:nth-child(3)").on("click", function () {
+    switchTab(3);
+    return false;
+  });
+};
+
+var switchTab = function(number) {
+  // make all of the tabs inactive
+  $(".tabs span").removeClass("active");
+
+  // make the applicalbe tab active
+  $(".tabs a:nth-child("+number+") span").addClass("active");
+
+  // empty the main content so it can be re-created
+  $("main .content").empty();
 };
 
 $(document).ready(main);
