@@ -2,22 +2,22 @@ var main = function() {
   "use strict";
 
   $(".tabs a:nth-child(1)").on("click", function () {
-    switchTab(1);
+    activateTab(1);
     return false;   // so we don't follow the link
   });
 
   $(".tabs a:nth-child(2)").on("click", function () {
-    switchTab(2);
+    activateTab(2);
     return false;
   });
 
   $(".tabs a:nth-child(3)").on("click", function () {
-    switchTab(3);
+    activateTab(3);
     return false;
   });
 };
 
-var switchTab = function(number) {
+var activateTab = function(number) {
   // make all of the tabs inactive
   $(".tabs span").removeClass("active");
 
